@@ -22,7 +22,7 @@ except FileNotFoundError as __:
     pass
 
 
-# ----------------------   Code Starts Here   ----------------------#
+# ----------------------   Code Starts Here    ----------------------#
 for t in range(int(input())):
     l = list(map(int, input().split()))
     if l[0] == l[1] == l[2]:
@@ -36,7 +36,7 @@ for t in range(int(input())):
         l[max_index] = maxEle - minEle
         # print(l)
         if all(i == l[0] for i in l):
-            print("YES")
+            print("YESS")
             break
     else:
-        print("NO")
+        print("NOO")
